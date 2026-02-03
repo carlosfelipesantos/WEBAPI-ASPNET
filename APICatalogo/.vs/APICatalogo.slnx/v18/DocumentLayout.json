@@ -34,8 +34,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -46,8 +58,7 @@
               "RelativeToolTip": "APICatalogo\\Models\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T19:23:31.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T19:23:31.031Z"
             },
             {
               "$type": "Document",
@@ -59,8 +70,7 @@
               "RelativeToolTip": "APICatalogo\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T19:16:07.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T19:16:07.289Z"
             },
             {
               "$type": "Document",
@@ -72,8 +82,7 @@
               "RelativeToolTip": "APICatalogo\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T18:36:26.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T18:36:26.812Z"
             },
             {
               "$type": "Document",
@@ -85,8 +94,7 @@
               "RelativeToolTip": "APICatalogo\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-03T18:36:20.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T18:36:20.488Z"
             },
             {
               "$type": "Document",
@@ -98,8 +106,7 @@
               "RelativeToolTip": "APICatalogo\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-03T18:34:50.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T18:34:50.59Z"
             },
             {
               "$type": "Document",
@@ -113,18 +120,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-03T18:56:38.427Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
