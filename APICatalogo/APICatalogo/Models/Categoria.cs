@@ -6,5 +6,6 @@
         public string? Nome { get; set; }
         public string? ImagemUrl { get; set; }
 
+        public ICollection<Produto>? Produtos { get; set; } //propriedade de navegação para representar o relacionamento entre Categoria e Produto
     }
 }
