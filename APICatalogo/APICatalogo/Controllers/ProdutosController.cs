@@ -1,4 +1,5 @@
 ﻿using APICatalogo.Context;
+using APICatalogo.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,28 @@ namespace APICatalogo.Controllers
             _context = context;
         }
 
+        //primeiro mettodo action
+        [HttpGet]
+        public ActionResult<IEnumerable<Produto>> Get()
+        {
+            var produtos = _context.Produtos.ToList();
+            if(produtos.Count == 0)
+            {
+                return NotFound("Nenhum produto encontrado");
+            }
+            return Ok(produtos);
+        }
+
+        [HttpGet("{id:int}")]
+        public ActionResult<Produto> Get(int id)
+        {
+            var produto = _context.Produtos.Find(id);
+            if (produto is null)
+            {
+                return NotFound("Nenhum produto encontrado pelo id");
+            }
+            return Ok(produto);
+        }
 
     }
 }

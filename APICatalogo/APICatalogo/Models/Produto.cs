@@ -23,6 +23,9 @@ namespace APICatalogo.Models
         public string? ImagemUrl { get; set; }
         public int Estoque { get; set; }
         public DateTime DataCadastro { get; set; }
-
+        public int? CategoriaId { get; set; }
+        
+        [ForeignKey("CategoriaId")]
+        public Categoria? Categoria { get; set; }
     }
 }
