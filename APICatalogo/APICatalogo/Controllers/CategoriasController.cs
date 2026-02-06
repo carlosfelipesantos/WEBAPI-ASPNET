@@ -22,6 +22,8 @@ namespace APICatalogo.Controllers
         [HttpGet("produtos")]
         public ActionResult<IEnumerable<Categoria>> GetCategoriasProduto() 
         {
+
+
             return _context.Categorias.Include(p=> p.Produtos).ToList();
         }
    
@@ -29,7 +31,20 @@ namespace APICatalogo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Categoria>> Get()
         {
-            return _context.Categorias.ToList();
+
+            try
+            {
+                throw new DataMisalignedException("Teste de exceção personalizada");
+
+                //return _context.Categorias.ToList();
+
+            }
+
+            catch
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao processar a solicitação.");
+            }
+
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
